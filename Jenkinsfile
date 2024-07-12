@@ -8,11 +8,11 @@ pipeline {
      string(name:'TAG_NAME',defaultValue: '',description:'')
   }
   environment {
-    DOCKERHUB_CREDENTIAL_ID = 'dockerhub-id'
-    GITHUB_CREDENTIAL_ID = 'github-id'
+    DOCKERHUB_CREDENTIAL_ID = 'docker-hub'
+    GITHUB_CREDENTIAL_ID = 'github-credential'
     KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-    DOCKERHUB_NAMESPACE = 'kubesphere'
-    GTIHUB_ACCOUNT = 'kubesphere'
+    DOCKERHUB_NAMESPACE = 'sophak12'
+    GTIHUB_ACCOUNT = 'PholSoophak'
     APP_NAME = 'devops-docs-sample'
   }
   stages {
